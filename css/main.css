@@ -1,0 +1,68 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+figure {
+    margin: .5rem;
+}
+
+figcaption {
+    font-family:georgia, baskerville, serif;
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+h2  {
+    font-family: sans-serif;
+    color: #666666;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.box1 {
+    float: left;
+    margin: 5rem;
+    padding: 2rem;
+}
+
+.box2 {
+    float: left;
+    margin: 3rem;
+    width: 25%;
+}
+    
